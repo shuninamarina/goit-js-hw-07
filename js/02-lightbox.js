@@ -13,7 +13,7 @@ gallery.innerHTML = galleryItems
   })
   .join("");
 
-gallery.addEventListener("click", onGalleryClick);
+// gallery.addEventListener("click", onGalleryClick);
 
 const lightbox = new SimpleLightbox(".gallery a", {
   captionPosition: "bottom",
@@ -21,10 +21,10 @@ const lightbox = new SimpleLightbox(".gallery a", {
   captionDelay: 250,
 });
 
-function onGalleryClick(event) {
-  event.preventDefault();
+// function onGalleryClick(event) {
+//   event.preventDefault();
 
-  if (event.target.nodeName !== "IMG") {
-    return;
-  }
-}
+//   if (event.target.nodeName !== "IMG") {
+//     return;
+//   }
+// }
